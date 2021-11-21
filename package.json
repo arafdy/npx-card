@@ -1,6 +1,6 @@
 {
   "name": "rafdy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npx-card",
   "main": "index.js",
   "scripts": {
