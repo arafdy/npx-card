@@ -1,0 +1,25 @@
+{
+  "name": "npx-card",
+  "version": "1.0.0",
+  "description": "npx-card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "rafdy amestira",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.5.0",
+    "inquirer": "^8.2.0",
+    "open": "^7.0.4",
+    "ora": "^5.1.0",
+    "request": "^2.65.0"
+  }
+}
