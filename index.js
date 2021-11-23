@@ -28,7 +28,7 @@ const questions = [
             {
                 name: "Exit",
                 value: () => {
-                    console.log("Good bye, have a nice day!\n");
+                    console.log("🚀Good bye, have a nice day!\n");
                 }
             }
         ]
@@ -37,27 +37,28 @@ const questions = [
 
 const data = {
     name: chalk.bold.green("                    Rafdy Amestira"),
-    handle: chalk.white("@harshhhdev"),
-    fact: chalk.hex('#B10000')('I love Open-Source!'),
-    github: chalk.hex('#787878')("https://github.com/arafdy"),
-    instagram: chalk.hex('#AB009C')("https://www.instagram.com/a_rafdy/"),
+    fact: chalk.hex('#B10000')('I love Open-Source! 🚀'),
+    github: chalk.hex('#00AB9E')("https://github.com/arafdy"),
+    instagram: chalk.hex('#00AB9E')("https://www.instagram.com/a_rafdy/"),
     website: chalk.hex('#00AB9E')("https://arafdy.github.io"),
-    npx: chalk.hex('#A1AB00')("npx harsh"),
+    npx: chalk.hex('#A1AB00')("npx rafdy"),
 
     labelFact: chalk.hex('#FF6262').bold("          Fun Fact:"),
     labelGitHub: chalk.hex('#9E9E9E').bold("         GitHub:"),
-    labelWebsite: chalk.hex('#59FFC8').bold("        Website:"),
+    labelWebsite: chalk.hex('#9E9E9E').bold("        Website:"),
+    labelInstagram: chalk.hex('#9E9E9E').bold("      Instagram:"),
     labelCard: chalk.hex('#FFF976').bold("                  Card:")
 };
 
 const me = boxen(
-    [
+    [ 
         `${data.name}`,
         ``,
         `${data.labelFact}  ${data.fact}`,
         ``,
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelWebsite}  ${data.website}`,
+        `${data.labelInstagram}  ${data.instagram}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
@@ -83,12 +84,16 @@ const me = boxen(
 );
 
 console.log(me);
-const tip = [
-    `Tip: ${chalk.cyanBright.bold(
-        "cmd/ctrl + click"
-    )} on the links above to open them in your broswer.`,
-    '',
-].join("\n");
+// const tip = [
+//     `Tip: ${chalk.cyanBright.bold(
+//         "cmd/ctrl + click"
+//     )} on the links above to open them in your broswer.`,
+//     '',
+// ].join("\n")
+
+const tip = `Tip: ${chalk.cyanBright.bold(
+    "cmd/ctrl + click"
+)} on the links above to open them in your broswer. 🛩`
 console.log(tip);
 
 

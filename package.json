@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "npx-card",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
     "pub": "npm version major & npm publish"
