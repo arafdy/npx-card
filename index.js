@@ -19,7 +19,7 @@ const questions = [
         message: "What do you want to do?",
         choices: [
             {
-                name: `Toss an ${chalk.bold("email")}?`,
+                name: `Toss an ${chalk.reset("email")}?`,
                 value: () => {
                     open("mailto:rafdyamestira@gmail.com");
                     console.log("\nLooking forward to hearing your message and replying to you!\n");
@@ -36,41 +36,37 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("                    Rafdy Amestira"),
-    fact: chalk.hex('#B10000')('I love Open-Source! 🚀'),
+    name: chalk.reset("Rafdy Amestira"),
+    work:  chalk.reset('business and intergration arch'),
+    workplace: chalk.reset('accenture'),
     github: chalk.hex('#00AB9E')("https://github.com/arafdy"),
     instagram: chalk.hex('#00AB9E')("https://www.instagram.com/a_rafdy/"),
     website: chalk.hex('#00AB9E')("https://arafdy.github.io"),
-    npx: chalk.hex('#A1AB00')("npx rafdy"),
 
-    labelFact: chalk.hex('#FF6262').bold("          Fun Fact:"),
-    labelGitHub: chalk.hex('#9E9E9E').bold("         GitHub:"),
-    labelWebsite: chalk.hex('#9E9E9E').bold("        Website:"),
-    labelInstagram: chalk.hex('#9E9E9E').bold("      Instagram:"),
-    labelCard: chalk.hex('#FFF976').bold("                  Card:")
+    labelGitHub: chalk.hex('#9E9E9E').reset("🐱 GitHub   :"),
+    labelWebsite: chalk.hex('#9E9E9E').reset("🌐 Website  :"),
+    labelInstagram: chalk.hex('#9E9E9E').reset("📱 Instagram:"),
 };
 
 const me = boxen(
     [ 
         `${data.name}`,
         ``,
-        `${data.labelFact}  ${data.fact}`,
+        `${chalk.hex('#696969')('>')} ${data.work} ${chalk.hex('#696969')('@')} ${data.workplace}`,
         ``,
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelWebsite}  ${data.website}`,
         `${data.labelInstagram}  ${data.instagram}`,
         ``,
-        `${data.labelCard}  ${data.npx}`,
-        ``,
-        `${chalk.bold(
+        `${chalk.reset(
             "Well hello peole, Rafdy's here " 
         )}`,
-        `${chalk.bold("I really love to build things in the terms of ")}`,
-        `${chalk.bold("electrical and software design! ")}`,
-        `${chalk.bold(
+        `${chalk("I really love to build things in the terms of ")}`,
+        `${chalk.reset("electrical and software design! ")}`,
+        `${chalk.reset(
             "I'm enjoying learn MERN development and try to be good at it"
         )}`,
-        `${chalk.bold(
+        `${chalk.reset(
             "Toss me an email if you want to collab!"
         )}`
     ].join("\n"),
@@ -79,19 +75,19 @@ const me = boxen(
         float: 'center',
         padding: 1,
         borderStyle: "single",
-        borderColor: "blue"
+        borderColor: "black"
     }
 );
 
 console.log(me);
 // const tip = [
-//     `Tip: ${chalk.cyanBright.bold(
+//     `Tip: ${chalk.cyanBright.reset(
 //         "cmd/ctrl + click"
 //     )} on the links above to open them in your broswer.`,
 //     '',
 // ].join("\n")
 
-const tip = `Tip: ${chalk.cyanBright.bold(
+const tip = `Tip: ${chalk.cyanBright.reset(
     "cmd/ctrl + click"
 )} on the links above to open them in your broswer. 🛩`
 console.log(tip);
