@@ -37,7 +37,7 @@ const questions = [
 
 const data = {
     name: chalk.reset("Rafdy Amestira"),
-    work:  chalk.reset('Business And Intergration Arch'),
+    work:  chalk.reset('Business And Intergration Arch Analyst'),
     workplace: chalk.reset('Accenture'),
     github: chalk.hex('#00AB9E')("https://github.com/arafdy"),
     instagram: chalk.hex('#00AB9E')("https://www.instagram.com/a_rafdy/"),
@@ -94,3 +94,4 @@ console.log(tip);
 
 
 prompt(questions).then(answer => answer.action());
+// console.log(answer.action());
