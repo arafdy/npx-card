@@ -94,4 +94,4 @@ console.log(tip);
 
 
 prompt(questions).then(answer => answer.action());
-// console.log(answer.action());
+//  console.log(answer.action());
