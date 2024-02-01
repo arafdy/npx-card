@@ -64,7 +64,7 @@ const me = boxen(
         `${chalk("I really love to build things in the terms of ")}`,
         `${chalk.reset("electrical and software design! ")}`,
         `${chalk.reset(
-            "I'm enjoying learn MERN development and try to be good at it"
+            "I'm enjoying learn MERN development and Platform things"
         )}`,
         `${chalk.reset(
             "Toss me an email if you want to collab!"
