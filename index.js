@@ -41,7 +41,7 @@ const data = {
     workplace: chalk.reset('Accenture'),
     github: chalk.hex('#00AB9E')("https://github.com/arafdy"),
     instagram: chalk.hex('#00AB9E')("https://www.instagram.com/a_rafdy/"),
-    website: chalk.hex('#00AB9E')("https://arafdy.github.io"),
+    website: chalk.hex('#00AB9E')("https://arafdy.github.io/rafdy"),
 
     labelGitHub: chalk.hex('#9E9E9E').reset("🐱 GitHub   :"),
     labelWebsite: chalk.hex('#9E9E9E').reset("🌐 Website  :"),
@@ -94,4 +94,6 @@ console.log(tip);
 
 
 prompt(questions).then(answer => answer.action());
+
+
 //  console.log(answer.action());
